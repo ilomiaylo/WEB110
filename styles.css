@@ -1,0 +1,29 @@
+/* Ilayda Orhan - Date: 01 March 2025 */
+
+nav {
+    height: 35px;
+}
+
+a:link {
+    color: #8b1010;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: #000;
+    color: #fff;
+}
+
+a:visited {
+    color: #00602b;
+    background-color: #fff;
+}
+
+main {
+    font-weight: bold;
+    background-image: url(background.webp);
+    background-repeat: repeat-x;
+}
