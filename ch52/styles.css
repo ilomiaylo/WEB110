@@ -1,0 +1,84 @@
+/* Ilayda Orhan - Date: 01 March 2025 */
+
+nav {
+    height: 35px;
+}
+
+a:link {
+    color: #8b1010;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a:visited {
+    color: #00602b;
+    background-color: #fff;
+}
+body {
+    background-image: url('paper.webp'); /* Arka plan resmi */
+    background-size: cover; /* Sayfanın tamamını kaplar */
+    background-position: center; /* Ortalar */
+    background-repeat: no-repeat; /* Tekrar etmez */
+    background-attachment: fixed; /* Sayfa kaydırıldığında sabit kalır */
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: #000;
+    color: #fff;
+}
+.baklava-img {
+    width: 500px;  /* Fotoğrafın genişliğini 300px olarak ayarlar */
+    height: auto;  /* Yüksekliği otomatik ayarlar, oranı korur */
+    display: block;  /* Fotoğrafın blok olarak görünmesini sağlar */
+    
+}
+.restaurant1-img { 
+    width: 400px;
+    height: auto;
+    display:block;
+}
+
+.footer-bar {
+    background-color: #8b1010; /* Kırmızı arka plan */
+    color: white; /* Beyaz yazı */
+    text-align: right; /* Yazıyı sağa hizala */
+    padding: 10px; /* İç boşluk ekle */
+    font-weight: bold; /* Yazıyı kalın yap */
+    font-size: 14px; 
+}
+/* La Bella Specials başlığı için yeşil arka plan */
+.specials-header {
+    background-color: #0d4b12; /* Yeşil arka plan */
+    color: white; /* Beyaz yazı */
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+/* Pizza ve Tiramisu başlıkları için bej arka plan */
+.specials-section {
+    background-color: #E8DFC8; /* Bej arka plan */
+    padding: 10px;
+}
+
+/* Tatlı ve yemek açıklamalarının olduğu kısımlar için beyaz arka plan */
+.specials-content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Footer için kırmızı arka plan */
+.footer-bar {
+    background-color: #8B1010; /* Koyu kırmızı */
+    color: white; /* Beyaz yazı */
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+main {
+    font-weight: bold;
+    background-image: url(background.webp);
+    background-repeat: repeat-x;
+}
