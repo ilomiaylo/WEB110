@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Easter Candy Wonderland</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+  
+    #wrapper {
+      margin: 0;
+      padding: 0;
+    }
+  
+    body {
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+      margin: 0;
+      background: linear-gradient(to right, #80CBC4 50%, rgb(25, 145, 174));
+    }
+  
+    header {
+      background-image: url("background.jpg");
+      padding: 1em;
+      text-align: center;
+    }
+  
+    img {
+      justify-content: flex-start;
+    }
+  
+    main {
+      display: flex;
+      flex-direction: row;
+      flex-grow: 1;
+    }
+  
+    nav {
+      background: #FFAB00;
+      padding: 1em;
+      width: 200px;
+      flex-shrink: 0;
+    }
+  
+    article {
+      display:flex;
+      flex-wrap:wrap;
+      border-bottom:2px solid #b9621a;
+      padding: 1em;
+      flex-grow: 1;
+      max-width: 370px;
+    }
+    section {
+      flex:1;
+      min-width: 300px;
+      padding: 10px;
+    }
+  
+    footer {
+      padding: 1em;
+      text-align: center;
+    }
+  
+    .details {
+      color: #4a0963;
+      font-weight: bold;
+      font-family: Arial, sans-serif;
+    }
+  
+    article img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 1em 0 1em 0;
+    }
+  
+    nav a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: black;
+      border-bottom: 1px solid #f0f0f0;
+      text-align: center;
+    }
+  
+    /* Mobile Media Query */
+    @media (max-width: 700px) {
+      main {
+        flex-direction: column;
+      }
+  
+      nav {
+        width: 100%;
+      }
+  
+      article {
+        flex-direction: column;
+        flex-grow: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <h1>Easter Candy Delights</h1>
+      <nav>
+        <a href="#chocolate">Chocolate Bunnies</a>
+        <a href="#peeps">Marshmallow Peeps</a>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <section id="chocolate">
+          <h2>Chocolate Bunnies</h2>
+          <img src="bunnies.webp" alt="Chocolate Bunnies">
+          <p class="details">Chocolate bunnies are a classic Easter treat, enjoyed by children and adults alike. They come in various sizes and flavors, from milk chocolate to dark chocolate.</p>
+        </section>
+
+        <section id="peeps">
+          <h2>Marshmallow Peeps</h2>
+          <img src="bunny2.webp" alt="Marshmallow Peeps">
+          <p class="details">Marshmallow Peeps are a sweet and colorful Easters staple. These marshmallow candies are shaped like chicks or bunnies and come in a variety of colors.</p>
+        </section>
+      </article>
+
+      <article>
+        <section id="eggs">
+          <h2>Easter Eggs</h2>
+          <img src="chocolate.jpg" alt="Easter Eggs">
+          <p class="details">Easter eggs, especially chocolate ones, are a popular Easter tradition. They can be solid chocolate or filled with cream or other sweet fillings.</p>
+        </section>
+
+      </article>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Easter Candy</p>
+    </footer>
+  </div>
+</body>
+</html>
+                </main>
+            
+        </body>
+</html>
